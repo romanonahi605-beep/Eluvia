@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eluvia | Librería</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fffafc;
+            color: #333;
+        }
+
+        header {
+            background: #f3d7e5;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            font-size: 17px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        nav a {
+            margin: 0 12px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .inicio {
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .inicio h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .inicio p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 28px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .productos {
+            padding: 50px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .productos h2 {
+            font-size: 30px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .producto {
+            width: 220px;
+            padding: 25px;
+            border-radius: 15px;
+            background: #fff3f7;
+        }
+
+        .producto h3 {
+            margin-top: 10px;
+        }
+
+        .contacto {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        footer {
+            background: #f3d7e5;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Eluvia</h1>
+        <p>Librería, papelería y cosas lindas ✨</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="inicio" id="inicio">
+        <h2>Bienvenidos a Eluvia</h2>
+        <p>
+            Todo lo que necesitás para estudiar, trabajar,
+            organizarte y darle un poquito de magia a tu día.
+        </p>
+
+        <a class="boton" href="#productos">Ver productos</a>
+    </section>
+
+    <section class="productos" id="productos">
+        <h2>Nuestros productos</h2>
+
+        <div class="contenedor">
+
+            <div class="producto">
+                <div style="font-size:45px;">📚</div>
+                <h3>Escolar</h3>
+                <p>Cuadernos, carpetas, útiles y mucho más.</p>
+            </div>
+
+            <div class="producto">
+                <div style="font-size:45px;">🖊️</div>
+                <h3>Oficina</h3>
+                <p>Productos para estudiar, trabajar y organizarte.</p>
+            </div>
+
+            <div class="producto">
+                <div style="font-size:45px;">🎀</div>
+                <h3>Cosas lindas</h3>
+                <p>Detalles, accesorios y productos irresistibles.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2>¿Querés comprar?</h2>
+        <p>Muy pronto vas a poder ver nuestro catálogo y hacer tu pedido.</p>
+        <a class="boton" href="#">Contactanos</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Eluvia — Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
